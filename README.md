@@ -3,33 +3,29 @@
 ## Table of contents
   * [About this project](#about-this-project)
   * [Getting started](#getting-started)
-  * [Structure of the project](#project-structure)
-  * [Analysis Output](#analysis-output)
+  * [Analysis Result](#analysis-result)
 
 
 
 ## <a name="about-this-project"></a> About this project
-This project is to develop a VBA script to analyze big stock market data. The raw data, which includes 3 years of stock market data in each tab, is in a Microsoft Excel file.
+This project is to develop a VBA script to analyze stock market data. The raw data, which includes 3 years of stock market data in each tab, is in a Microsoft Excel file.
 Using the VBA script will allow you to analyze each year and summarize meaningful analysis in new columns in each worksheet all at once.
 
 
 ## <a name="getting-started"></a> Getting started
-Include steps that allow users to easily set up this project locally on their computers.
-
-Typical steps might include clone the repository, install Node.js, and install any dependencies. This section goes through the steps for someone to run and/or contribute to this project on his/her local computer.
-
-  1. [Step 1](#step-one)
-  2. [Step 2](#step-two)
-  3. [Step 3](#step-three)
-  ...
 
 ### <a name="step-one"></a> Step 1
+Download the files required.
+The VBA script, 'Stock_Market_Analysis_Script.bas,' was uploaded in this repository. 
 
 ### <a name="step-two"></a> Step 2
+Open the excel workbook which has raw data. In the Developer tab, click Visual Basic. 
 
 ### <a name="step-three"></a> Step 3
+Import the VBA script 'Stock_Market_Analysis_Script.bas' file (File > Import File).
+Then, press F5 button on the keyboard or click the play button to run the script.
 
-* A script that will loop through all the stocks for one year and output the following information:
+* The script will loop through all the stocks for one year and output the following information:
 
   * The ticker symbol.
 
@@ -40,13 +36,10 @@ Typical steps might include clone the repository, install Node.js, and install a
 
   * The total stock volume of the stock.
 
+* The script will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". 
 
-## <a name="project-structure"></a> Structure of the project
-This section gives a high level overview of the project file/directory structure.
 
-This information is particulary useful to a new user of the code/repository. It helps others using the code to get up to speed quickly on what the different directories and files contain. It also helps users of the code understand how the files communicate with and depend on one another.
-
-## <a name="anlysis-output"></a> Analysis Output
+## <a name="anlysis-result"></a> Analysis Result
 After running the script on the Workbook, the result should look as follows:
 
 ### 2014 Analysis Data
