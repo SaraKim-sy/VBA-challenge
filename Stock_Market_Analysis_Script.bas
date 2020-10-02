@@ -18,7 +18,7 @@ Sub Stock_Market_Analysis()
     Total_Stock_Volume = 0
     
     
-    
+    'Loop through all sheets
     For Each ws In Worksheets
     
         'Analysis Table Columns Name
@@ -27,7 +27,7 @@ Sub Stock_Market_Analysis()
         ws.Cells(1, 11).Value = "Percent Change"
         ws.Cells(1, 12).Value = "Total Stock Volume"
         
-        'Ticker Symbol & Total Stock Volume
+        'Determine the Last Row
         LastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
         
         Analysis_Table_Row = 2
