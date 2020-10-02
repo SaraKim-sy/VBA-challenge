@@ -27,7 +27,7 @@ Sub Stock_Market_Analysis()
         ws.Cells(1, 11).Value = "Percent Change"
         ws.Cells(1, 12).Value = "Total Stock Volume"
         
-        'Ticker Symbol & Total Stock Volume
+        'Ticker Symbol & Yearly Change & Percent Change & Total Stock Volume
         LastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
         
         Analysis_Table_Row = 2
