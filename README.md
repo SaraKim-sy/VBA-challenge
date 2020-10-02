@@ -1,12 +1,10 @@
-# VBA Challenge
-
-# TITLE OF PROJECT
+# VBA CHALLENGE
 
 ## Table of contents
   * [About this project](#about-this-project)
   * [Getting started](#getting-started)
   * [Structure of the project](#project-structure)
-  * [Screenshots](#screenshots)
+  * [Analysis Output](#analysis-output)
 
 
 
@@ -31,21 +29,31 @@ Typical steps might include clone the repository, install Node.js, and install a
 
 ### <a name="step-three"></a> Step 3
 
+* A script that will loop through all the stocks for one year and output the following information:
+
+  * The ticker symbol.
+
+  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+    * It also has conditional formatting that will highlight positive change in green and negative change in red.
+    
+  * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+  * The total stock volume of the stock.
+
+
 ## <a name="project-structure"></a> Structure of the project
 This section gives a high level overview of the project file/directory structure.
 
 This information is particulary useful to a new user of the code/repository. It helps others using the code to get up to speed quickly on what the different directories and files contain. It also helps users of the code understand how the files communicate with and depend on one another.
 
-## <a name="screenshots"></a> Screenshots
-If the application has a graphical user interface, include any relevant screenshots here.
+## <a name="anlysis-output"></a> Analysis Output
+After running the script on the Workbook, the result should look as follows:
 
-If the application only has a command-line interface, include screenshots showing the workflow of some of the commands a user can run.
-
-### 2014 Analysis Output
+### 2014 Analysis Data
 ![Image of 2014 Analysis](https://github.com/SaraKim-sy/VBA-challenge/blob/master/2014%20Data.png?raw=true)
 
-### 2015 Analysis Output
+### 2015 Analysis Data
 ![Image of 2015 Analysis](https://github.com/SaraKim-sy/VBA-challenge/blob/master/2015%20Data.png?raw=true)
 
-### 2016 Analysis Output
+### 2016 Analysis Data
 ![Image of 2016 Analysis](https://github.com/SaraKim-sy/VBA-challenge/blob/master/2016%20Data.png?raw=true)
