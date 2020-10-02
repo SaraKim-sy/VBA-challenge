@@ -39,7 +39,7 @@ Then, press F5 button on the keyboard or click the play button to run the script
 * The script will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". 
 
 
-## <a name="anlysis-result"></a> Analysis Result
+## <a name="analysis-result"></a> Analysis Result
 After running the script on the Workbook, the result should look as follows:
 
 ### 2014 Analysis Data
